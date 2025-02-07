@@ -1,0 +1,5 @@
+mkdir -p /var/www/pepe-official.sbs/html
+chown -R $USER:$USER /var/www/pepe-official.sbs/html
+chmod -R 755 /var/www
+
+nano /etc/nginx/sites-available/pepe-official.sbs
